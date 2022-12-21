@@ -60,12 +60,6 @@
             Cash Outs
         </a>
     </li>
-    <li class="c-sidebar-nav-item">
-        <a class="c-sidebar-nav-link" href="#">
-            <i class="c-sidebar-nav-icon fas fa-chart-bar"></i>
-            Reports
-        </a>
-    </li>
 </ul>
 <button class="c-sidebar-minimizer c-class-toggler" type="button" data-target="_parent"
     data-class="c-sidebar-minimized"></button>

@@ -40,8 +40,7 @@
                                         <td>{{ $cashOut->description }}</td>
                                         <td>{{ $cashOut->amount }}</td>
                                         <td>
-                                            {{-- <a class="btn btn-info"
-                                                href="{{route('cashouts.show', $cashOut->id)}}">
+                                            <a class="btn btn-info" href="{{route('cashouts.show', $cashOut->id)}}">
                                                 <span class="glyphicon glyphicon-edit">Details</span>
                                             </a>
                                             <a class="btn btn-primary" href="{{route('cashouts.edit', $cashOut->id)}}">
@@ -50,7 +49,7 @@
                                             <a class="btn btn-danger" href="{{route('cashouts.destroy', $cashOut->id)}}"
                                                 onclick="return confirm('Are you sure?')">
                                                 <span class="glyphicon glyphicon-trash">Delete</span>
-                                            </a> --}}
+                                            </a>
                                         </td>
                                     </tr>
                                     @endforeach

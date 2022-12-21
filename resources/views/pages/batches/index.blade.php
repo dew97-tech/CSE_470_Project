@@ -14,7 +14,8 @@
                 <div class="card">
                     <div class="card-body">
                         <h6 class="card-title">Batches</h6>
-                        <a id="create-new" type="button" class="btn btn-primary float-right" href="{{route('batches.create')}}">Add New</a>
+                        <a id="create-new" type="button" class="btn btn-primary float-right"
+                            href="{{route('batches.create')}}">Add New</a>
                         <div class="table-responsive pt-3 px-1">
                             <table class="table table-bordered" id="myTable">
                                 <thead>
@@ -35,7 +36,8 @@
                                     <tr>
                                         <td>{{ $index++ + 1 }}</td>
                                         <td>{{ $batch->title }}</td>
-                                        <td>{{ isset($batch->batchSubject) ? $batch->batchSubject->name : 'No Subject Selected' }}</td>
+                                        <td>{{ isset($batch->batchSubject) ? $batch->batchSubject->name : 'No Subject
+                                            Selected' }}</td>
                                         <td>{{ $batch->batchTeacher->name }}</td>
                                         <td>{{ $batch->start_date }}</td>
                                         <td>{{ date("g:i a", strtotime($batch->timestamp)) }}</td>
@@ -47,7 +49,8 @@
                                             <a class="btn btn-primary" href="{{route('batches.edit', $batch->id)}}">
                                                 <span class="glyphicon glyphicon-edit">Edit</span>
                                             </a>
-                                            <a class="btn btn-danger" href="{{route('batches.destroy', $batch->id)}}" onclick="return confirm('Are you sure?')">
+                                            <a class="btn btn-danger" href="{{route('batches.destroy', $batch->id)}}"
+                                                onclick="return confirm('Are you sure?')">
                                                 <span class="glyphicon glyphicon-trash">Delete</span>
                                             </a>
                                         </td>
@@ -69,7 +72,7 @@
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.js"></script>
 
 <script>
-$(document).ready(
+    $(document).ready(
     function () {
         $('#myTable').DataTable();
     }

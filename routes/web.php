@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -113,11 +114,11 @@ Route::group(['middleware' => ['auth']], function () {
         Route::get('/', 'CashOutController@index')->name('index');
         // David : cash_out route minor changes
         Route::get('/create', 'CashOutController@create')->name('create');
-        // Route::post('/store', 'CashOutController@store')->name('store');
-        // Route::get('/show/{id}', 'CashOutController@show')->name('show');
-        // Route::get('/edit/{id}', 'CashOutController@edit')->name('edit');
-        // Route::post('/update/{id}', 'CashOutController@update')->name('update');
-        // Route::get('/delete/{id}', 'CashOutController@destroy')->name('destroy');
-        // Route::get('/printreceipt/{id}', 'CashOutController@printReceipt')->name('printReceipt');
+        Route::post('/store', 'CashOutController@store')->name('store');
+        Route::get('/show/{id}', 'CashOutController@show')->name('show');
+        Route::get('/edit/{id}', 'CashOutController@edit')->name('edit');
+        Route::post('/update/{id}', 'CashOutController@update')->name('update');
+        Route::get('/delete/{id}', 'CashOutController@destroy')->name('destroy');
+        Route::get('/printreceipt/{id}', 'CashOutController@printReceipt')->name('printReceipt');
     });
 });
