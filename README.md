@@ -1,7 +1,9 @@
-#School Management System in Laravel
+# School Management System in Laravel
+
 This is a school management system developed using the Laravel framework. It is designed to help educational institutions manage and streamline their administrative and academic tasks.
 
-#Key Features
+# Key Features
+
 Student Information: The system allows schools to store and manage student information, including personal details, contact information, enrollment history, and academic records.
 
 Class Scheduling: The system allows schools to create and manage class schedules, including assigning classrooms, teachers, and students to specific courses and periods.
@@ -18,17 +20,19 @@ Reporting and Analytics: The system provides a range of reports and analytics to
 
 Security: The system has robust security features to protect sensitive data and ensure data privacy.
 
-Installation
+## Installation
 To install the school management system, follow these steps:
 
-Clone the repository: git clone https://github.com/[USERNAME]/school-management-system-laravel.git
-Navigate to the project directory: cd school-management-system-laravel
-Install the dependencies: composer install
-Copy the example environment file and make the required configuration changes: cp .env.example .env
-Generate an app key: php artisan key:generate
-Run the database migrations: php artisan migrate
-Seed the database (optional): php artisan db:seed
-Usage
+1) Clone the repository: git clone https://github.com/[USERNAME]/school-management-system-laravel.git
+2) Navigate to the project directory: cd school-management-system-laravel
+3) Install the dependencies: composer install
+4) Copy the example environment file and make the required configuration changes: cp .env.example .env
+5) Generate an app key: php artisan key:generate
+6) Run the database migrations: php artisan migrate
+7) Seed the database (optional): php artisan db:seed
+
+#Usage
+
 To use the school management system, you will need to:
 
 Create an account: Go to /register and fill out the form to create a new account.
@@ -37,5 +41,6 @@ Access the dashboard: After logging in, you will be redirected to the dashboard,
 Contribution
 If you would like to contribute to the development of the school management system, please feel free to create a pull request. We welcome all contributions, big or small.
 
-License
+#License
+
 The school management system is open-source software licensed under the MIT license.
