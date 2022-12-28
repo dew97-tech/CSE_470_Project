@@ -23,7 +23,7 @@ Security: The system has robust security features to protect sensitive data and 
 ## Installation
 To install the school management system, follow these steps:
 
-1) Clone the repository: git clone https://github.com/[USERNAME]/school-management-system-laravel.git
+1) Clone the repository: git clone https://github.com/dew97-tech/school-management-system-laravel.git
 2) Navigate to the project directory: cd school-management-system-laravel
 3) Install the dependencies: composer install
 4) Copy the example environment file and make the required configuration changes: cp .env.example .env
