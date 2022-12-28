@@ -1,7 +1,7 @@
-##School Management System in Laravel
+#School Management System in Laravel
 This is a school management system developed using the Laravel framework. It is designed to help educational institutions manage and streamline their administrative and academic tasks.
 
-##Key Features
+#Key Features
 Student Information: The system allows schools to store and manage student information, including personal details, contact information, enrollment history, and academic records.
 
 Class Scheduling: The system allows schools to create and manage class schedules, including assigning classrooms, teachers, and students to specific courses and periods.
