@@ -24,12 +24,12 @@ Security: The system has robust security features to protect sensitive data and 
 To install the school management system, follow these steps:
 
 1) Clone the repository: `git clone https://github.com/dew97-tech/school-management-system-laravel.git`
-2) Navigate to the project directory: cd school-management-system-laravel
-3) Install the dependencies: composer install
-4) Copy the example environment file and make the required configuration changes: cp .env.example .env
-5) Generate an app key: php artisan key:generate
-6) Run the database migrations: php artisan migrate
-7) Seed the database (optional): php artisan db:seed
+2) Navigate to the project directory: `cd school-management-system-laravel`
+3) Install the dependencies: `composer install`
+4) Copy the example environment file and make the required configuration changes: `cp .env.example .env`
+5) Generate an app key: `php artisan key:generate`
+6) Run the database migrations: `php artisan migrate`
+7) Seed the database (optional): `php artisan db:seed`
 
 # Usage
 
