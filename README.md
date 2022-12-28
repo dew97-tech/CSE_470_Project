@@ -31,7 +31,7 @@ To install the school management system, follow these steps:
 6) Run the database migrations: php artisan migrate
 7) Seed the database (optional): php artisan db:seed
 
-#Usage
+# Usage
 
 To use the school management system, you will need to:
 
@@ -41,6 +41,6 @@ Access the dashboard: After logging in, you will be redirected to the dashboard,
 Contribution
 If you would like to contribute to the development of the school management system, please feel free to create a pull request. We welcome all contributions, big or small.
 
-#License
+# License
 
 The school management system is open-source software licensed under the MIT license.
